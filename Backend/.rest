@@ -1,0 +1,19 @@
+POST http://localhost:3000/api/notes HTTP/1.1
+content-type: application/json
+
+{
+    "titleNote": "Ejemplo 2",
+    "descriptioNote": "una breve descripcion",
+    "dataNote": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
+
+###
+
+GET http://localhost:3000/api/notes HTTP/1.1
+content-type: application/json
+
+{
+    "titleNote": "sample",
+    "descriptioNote": "una breve descripcion",
+    "dataNote": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
